@@ -28,3 +28,5 @@ EOL
 go build main.go
 cd ..
 rm -rf caddy
+
+echo "Success!"
