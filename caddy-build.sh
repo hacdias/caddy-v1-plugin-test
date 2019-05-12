@@ -1,6 +1,6 @@
 #/usr/bin/env bash
 
-set -euo pipefail
+set -e
 
 mod=$(head -1 go.mod | sed 's/^module//g' | xargs)
 
