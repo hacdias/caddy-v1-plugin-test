@@ -4,8 +4,7 @@ jobs:
     docker:
       - image: circleci/golang:1.12
     steps:
-      - attach_workspace:
-          at: '~/project'
+      - checkout
       - setup_remote_docker
       - run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
       - run: docker build -t hacdias/caddy-plugin-test .
