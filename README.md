@@ -1,6 +1,6 @@
-# caddy-plugin-test
+# caddy-v1-plugin-test
 
-> Docker image to test building Caddy plugins on CI.
+> Docker image to test building Caddy V1 plugins on CI.
 
 ## Requirements
 
